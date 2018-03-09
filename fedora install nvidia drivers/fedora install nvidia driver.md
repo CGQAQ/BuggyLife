@@ -162,21 +162,18 @@ sudo -i
 /home/<username>/Downdloads/NVIDIA-Linux-x86_64-304.137-patched.run
 ```
 ### 2.8.3 nVidia Installer Accept License
-img
-
+![01-accept-nvidia-license](https://raw.githubusercontent.com/CGQAQ/BuggyLife/master/fedora%20install%20nvidia%20drivers/01-accept-nvidia-license-748x561.png)
 ### 2.8.4 nVidia Installer Register the Kernel Source Modules with DKMS
-img
-
+![02-nvidia-installer-dkms](https://raw.githubusercontent.com/CGQAQ/BuggyLife/master/fedora%20install%20nvidia%20drivers/02-nvidia-installer-dkms-748x561.png)
 ### 2.8.5 nVidia Installer 32-bit Compatibility Libraries
-
+![03-nvidia-installer-32-bit-compatibility](https://raw.githubusercontent.com/CGQAQ/BuggyLife/master/fedora%20install%20nvidia%20drivers/03-nvidia-installer-32-bit-compatibility-748x561.png)
 ### 2.8.6 nVidia Installer Installing Drivers
-
 **Note: If you get libglvnd error, then abort installation and try this. Also “Install and overwrite existing files” works, but fixing this error is more clean way to install NVIDIA Drivers.**
-
+![04-nvidia-installer-installing](https://raw.githubusercontent.com/CGQAQ/BuggyLife/master/fedora%20install%20nvidia%20drivers/04-nvidia-installer-installing-748x561.png)
 ### 2.8.7 nVidia Installer Xorg Backup
-
+![05-nvidia-installer-xorg-backup](https://raw.githubusercontent.com/CGQAQ/BuggyLife/master/fedora%20install%20nvidia%20drivers/05-nvidia-installer-xorg-backup-748x561.png)
 ### 2.8.8 nVidia Drivers Installation Complete
-
+![06-nvidia-installation-complete](https://raw.githubusercontent.com/CGQAQ/BuggyLife/master/fedora%20install%20nvidia%20drivers/06-nvidia-installation-complete-748x561.png)
 ## 2.9 All Is Done and Then Reboot Back to Runlevel 5
 ```
 systemctl set-default graphical.target
