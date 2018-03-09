@@ -1,4 +1,4 @@
-## 1. Before nVidia drivers installation
+# 1. Before nVidia drivers installation
 1.1 Check is your nVidia card supported
 ```
 lspci |grep -E "VGA|3D"
@@ -7,7 +7,7 @@ lspci |grep -E "VGA|3D"
 01:00.0 VGA compatible controller: NVIDIA Corporation GF119 [GeForce GT 610] (rev a1)
 ```
 
-## 2. Install nVidia proprietary drivers on Fedora 27/26/25/24/23/22/21 and disable the nouveau driver
+# 2. Install nVidia proprietary drivers on Fedora 27/26/25/24/23/22/21 and disable the nouveau driver
 
 2.1 Download nVidia Installer Package
 Go to http://www.nvidia.com/Download/Find.aspx?lang=en-us and find latest version of installer package. 
@@ -190,7 +190,15 @@ dnf install vdpauinfo libva-vdpau-driver libva-utils
 yum install vdpauinfo libva-vdpau-driver libva-utils
 ```
 
+# 3. Check
 
+```
+nvidia-installer -v |grep version
+
+uname -a
+
+lspci |grep -E "VGA|3D"
+```
 
 
 
