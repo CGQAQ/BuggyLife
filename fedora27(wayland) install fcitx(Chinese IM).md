@@ -1,4 +1,4 @@
-## Because fedora27 uses wayland as default enviroment
+## Because fedora27 uses wayland as default enviroment and Fcitx doesn't support wayland
 
 ### Gnome On Wayland 用户无法使用 fcitx
 #### 由于 wayland 无法读取 ~/.xprofile 中的环境变量，所以请在/etc/environment中加入：
